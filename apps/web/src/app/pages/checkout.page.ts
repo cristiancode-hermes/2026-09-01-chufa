@@ -27,7 +27,7 @@ import { Cart, eur, humanizeApiError, liters, MillDay } from '../shared/models';
         }
       </div>
       <p><strong>Total a cobrar: {{ eur(cart()!.liveTotalCents) }}</strong> · {{ liters(cart()!.liveMl) }}</p>
-      @if (error()) { <p id="pay-action" class="cta-error">{{ error() }}</p> }
+      @if (error()) { <p class="cta-error" role="alert">{{ error() }}</p> }
       <button id="pay-action" class="btn btn-primary" type="button" [disabled]="busy()" (click)="pay()">
         Pagar ahora
       </button>
