@@ -1,0 +1,9 @@
+QA testing complete for 2026-09-01
+Project: chufa
+Build: ✅ API tsc + Angular production (baseHref /)
+Tests: 20/20 jest · 24/24 endpoint smoke · 31/31 browser
+New tests: existing coverage adequate (20 cases)
+Issues: 0 graves (1 id duplicado #pay-action corregido)
+Published: ✅ Caddy (chufa.proyectos.cristiancode.dev :3081), ✅ Portfolio (es.ts+en.ts+pt.ts), ✅ GitHub, ✅ Landing, ✅ Excel
+QR real: sí | url: /pedido/:code
+contraste-hover: PASS
